@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đồng hồ nam</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container-fluid bg-black d-none d-md-block" >
+			<div class="container">
+				<div class="header">
+					<div class="header_left d-flex float-left">
+						<div class="location">
+							<i class="fas fa-map-marker-alt"></i>
+							28, Phố Nhổn, Bắc Từ Liêm, Hà Nội
+						</div>
+						<div class="phone">
+							<i class="fas fa-phone-alt"></i>
+							0386950395
+						</div>
+					</div>
+					<div class="header_right d-flex float-right">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-instagram-square"></i>
+						<i class="fab fa-twitter"></i>
+					</div>
+				</div>
+			</div>
+			<div class="container d-flex justify-content-between align-items-center">
+				<div class="logo">
+					<img src="../image/logo.png" width="100%" height="100px">
+				</div>
+				<div class="search d-flex">
+					<div>
+						<input type="text" placeholder="Tìm kiếm...">
+					</div>
+					<div>
+						<button><i class="fas fa-search"></i></button>
+					</div>
+				</div>
+				<div class="cart">
+					<i class="fas fa-shopping-cart"></i>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-black-menu" id="menuNav">
+			<div class="d-md-none d-flex">
+				<button id="show-menu-mobi">
+					<i class="fas fa-list"></i>
+				</button>
+				<img src="../image/logo.png" width="100%" height="100px">
+				<div class="cart pt-4">
+					<i class="fas fa-shopping-cart"></i>
+				</div>
+			</div>
+			<div class="container">
+				<div class="menu">
+					<span id="icon-close" class="d-md-none"><i class="fas fa-times"></i></span>
+					<ul>
+						<li>
+							<div class="search d-flex d-md-none d-block">
+								<div>
+									<input type="text" placeholder="Tìm kiếm...">
+								</div>
+								<div>
+									<button><i class="fas fa-search"></i></button>
+								</div>
+							</div>
+						</li>
+						<li><a href="trangchu.html">Trang Chủ</a></li>
+						<li><a href="gioithieu.html">Giới Thiệu</a></li>
+						<li><a href="donghonam.html">Đồng hồ nam</a></li>
+						<li class="active"><a href="donghonu.html">Đồng hồ nữ</a></li>
+						<li><a href="#">Blogs</a></li>
+						<li><a href="#">Liên Hệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="page-title clearfix pt-5">
+			<div class="title-left">
+				<a href="trangchu.html">TRANG CHỦ</a><span class="m-3">/</span><b>ĐỒNG HỒ NAM</b>
+			</div>
+			<div class="title-right d-flex">
+				<h6 class="m-0 pt-2"> Hiển thị danh sách theo:</h6>
+				<div class="dropdown">
+				 	 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    		Thứ tự mặc định
+				 	 </button>
+				 	 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					    <a class="dropdown-item" href="#">Theo giá từ thấp đến cao</a>
+					    <a class="dropdown-item" href="#">Theo giá từ cao đến thấp</a>
+					    <a class="dropdown-item" href="#">Theo mức độ phổ biến</a>
+				 	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container pt-4">
+		<div class="row">
+			<div class="col-3">
+				<div class="nav-pro">
+				<div class="category">
+					<b>DANH MỤC SẢN PHẨM</b>
+					<ul>
+						<li><a href="#">Demo</a></li>
+						<li><a href="#">Demo</a></li>
+						<li>Sản phẩm<span class="float-right">
+							<button id="show-cate"><div id="arrow"><i class="fas fa-chevron-down" ></i></div></button></span>
+							<ul class="cate">
+								<li><a href="#">Đồng hồ nam</a></li>
+								<li><a href="#">Đồng hồ nữ</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="category-pro">
+					<b>SẢN PHẨM</b>
+					<div class="container contain-item">
+					<div class="item-pro d-flex ">
+						<img src="../image/product-16.jpg" width="100" height="100">
+						<div class="desc">
+							<b>Sample 1</b>
+							<div class="cost-pro">
+								700,000 đ
+							</div>
+						</div>
+					</div>
+					<div class="item-pro d-flex ">
+						<img src="../image/product-16.jpg" width="100" height="100">
+						<div class="desc">
+							<b>Sample 1</b>
+							<div class="cost-pro">
+								700,000 đ
+							</div>
+						</div>
+					</div>
+					<div class="item-pro d-flex">
+						<img src="../image/product-16.jpg" width="100" height="100">
+						<div class="desc">
+							<b>Sample 1</b>
+							<div class="cost-pro">
+								700,000 đ
+							</div>
+						</div>
+					</div>
+					<div class="item-pro d-flex">
+						<img src="../image/product-16.jpg" width="100" height="100">
+						<div class="desc">
+							<b>Sample 1</b>
+							<div class="cost-pro">
+								700,000 đ
+							</div>
+						</div>
+					</div>
+					<div class="item-pro d-flex">
+						<img src="../image/product-16.jpg" width="100" height="100">
+						<div class="desc">
+							<b>Sample 1</b>
+							<div class="cost-pro">
+								700,000 đ
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+			<div class="col-8 d-flex">
+				
+				<div class="item">
+						<div class="item-image">
+							<img src="../image/product-01.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 1</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-02.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 2</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-03.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 3</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-04.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 4</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="content-footer">
+			<div class="left float-left">
+				<h3>Đăng kí nhận thông tin</h3>
+			</div>
+			<div class="right float-right">
+				<div class="search d-flex">
+					<div>
+						<input type="text" placeholder="Email...">
+					</div>
+					<div>
+						<button>
+							ĐĂNG KÍ
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container-fluid bg-black">
+		<div class="container clearfix footer2">
+			<div class="infor">
+				<h3>Thông tin liên hệ</h3>
+				<ul>
+					<li><a href="#">
+						<i class="fas fa-map-marker-alt"></i>
+						28, Phố Nhổn, Bắc Từ Liêm, Hà Nội</a>
+					</li>
+					<li><a href="#">
+						<i class="fas fa-phone"></i>
+						0386950395</a>
+					</li>
+					<li><a href="#">
+						<i class="fas fa-envelope"></i>
+						tuananhvtatb@gmail.com</a>
+					</li>
+					<li><a href="#">
+						<i class="fab fa-facebook-square"></i>
+						Vũ Tuấn Anh</a>
+					</li>
+				</ul>
+			</div>
+			<div class="infor">
+				<h3>Liên kết</h3>
+				<ul>
+					<li><a href="#">Trang Chủ</a></li>
+					<li><a href="#">Giới Thiệu</a></li>
+					<li><a href="#">Đồng hồ nam</a></li>
+					<li><a href="#">Đồng hồ nữ</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">Liên Hệ</a></li>		
+				</ul>
+			</div>
+			<div class="infor">
+				<h3>Hỗ trợ</h3>
+				<ul>
+					<li><a href="#">Hướng dẫn mua hàng</a></li>
+					<li><a href="#">Hướng dẫn thanh toán</a></li>
+					<li><a href="#">Chính sách bảo hành</a></li>
+					<li><a href="#">Chính sách đổi trả</a></li>
+					<li><a href="#">Tư vấn khách hàng</a></li>
+				</ul>
+			</div>
+			<div class="infor">
+				<h3>Tải ứng dụng trên</h3>
+				<p>Ứng dụng Mona Watch có sẵn trên Google Play & App Store. Tải nó ngay.</p>
+				<ul>
+					<li><a href="#">
+						<img src="../image/img-googleplay.jpg"></a>
+					</li>
+					<li><a href="#">
+						<img src="../image/img-appstore.jpg"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="coppyright">
+				<i class="far fa-copyright"></i>
+				Bản quyền thuộc về Vũ Tuấn Anh
+			</div>
+		</div>
+		</div>
+	</footer>
+	<div class="social d-none d-lg-block">
+	<a href="https://www.facebook.com/tuananhtb99/"><i class="fab fa-facebook-f"></i></a>
+	<a href="https://www.facebook.com/tuananhtb99/"><i class="fab fa-twitter"></i></a>
+	<a href="https://www.instagram.com/tuan_oliver/?hl=vi"><i class="fab fa-instagram"></i></a>
+	<a href="https://www.facebook.com/tuananhtb99/"><i class="fab fa-youtube"></i></a>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript" src="../js/javascript.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đồng hồ Tuấn Anh</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<div class="container-fluid bg-black d-none d-md-block" >
+			<div class="container">
+				<div class="header">
+					<div class="header_left d-flex float-left">
+						<div class="location">
+							<i class="fas fa-map-marker-alt"></i>
+							28, Phố Nhổn, Bắc Từ Liêm, Hà Nội
+						</div>
+						<div class="phone">
+							<i class="fas fa-phone-alt"></i>
+							0386950395
+						</div>
+					</div>
+					<div class="header_right d-flex float-right">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-instagram-square"></i>
+						<i class="fab fa-twitter"></i>
+					</div>
+				</div>
+			</div>
+			<div class="container d-flex justify-content-between align-items-center">
+				<div class="logo">
+					<img src="../image/logo.png" width="100%" height="100px">
+				</div>
+				<div class="search d-flex">
+					<div>
+						<input type="text" placeholder="Tìm kiếm...">
+					</div>
+					<div>
+						<button><i class="fas fa-search"></i></button>
+					</div>
+				</div>
+				<div class="cart">
+					<i class="fas fa-shopping-cart"></i>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-black-menu" id="menuNav">
+			<div class="d-md-none d-flex">
+				<button id="show-menu-mobi">
+					<i class="fas fa-list"></i>
+				</button>
+				<img src="../image/logo.png" width="100%" height="100px">
+				<div class="cart pt-4">
+					<i class="fas fa-shopping-cart"></i>
+				</div>
+			</div>
+			<div class="container">
+				<div class="menu">
+					<span id="icon-close" class="d-md-none"><i class="fas fa-times"></i></span>
+					<ul>
+						<li>
+							<div class="search d-flex d-md-none d-block">
+								<div>
+									<input type="text" placeholder="Tìm kiếm...">
+								</div>
+								<div>
+									<button><i class="fas fa-search"></i></button>
+								</div>
+							</div>
+						</li>
+						<li class="active"><a href="trangchu.html">Trang Chủ</a></li>
+						<li><a href="gioithieu.html">Giới Thiệu</a></li>
+						<li><a href="donghonam.html">Đồng hồ nam</a></li>
+						<li><a href="donghonu.html">Đồng hồ nữ</a></li>
+						<li><a href="#">Blogs</a></li>
+						<li><a href="#">Liên Hệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="carouselExampleIndicators" class="carousel slide banner" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active ">
+			    	<div class="carousel-caption banner-image" data-aos="fade-down">
+    					<h4>Mona Watch</h4>
+			    		<h1>Đồng hồ Classio</h1>
+			    		<p class="d-none d-sm-block">Cùng với sự phát triển không ngừng của thời trang thế giới, rất nhiều thương hiệu cho ra đời những mẫu đồng hồ nam chính hãng đa dạng về phong cách, kiểu dáng, màu sắc, kích cỡ…</p>
+  					</div>
+			      	<img class="d-block w-100 banner-image" src="../image/slide-bg-1.jpg" alt="First slide">
+			    </div>
+			    <div class="carousel-item">
+			    	<div class="carousel-caption banner-image " data-aos="fade-down">
+    					<h4>Mona Watch</h4>
+			    		<h1>Đồng hồ Classio</h1>
+			    		<p class="d-none d-sm-block">Cùng với sự phát triển không ngừng của thời trang thế giới, rất nhiều thương hiệu cho ra đời những mẫu đồng hồ nam chính hãng đa dạng về phong cách, kiểu dáng, màu sắc, kích cỡ…</p>
+  					</div>
+			      <img class="d-block w-100" src="../image/slide-bg-2.jpg" alt="Second slide">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row mt-5 d-flex justify-content-between">
+			<div class="filler col-md-6 col-12" data-aos="fade-right">
+				<div class="con">
+					<div class="img-content mr-3">
+						<img src="../image/dong-ho-nam.jpg" height="250px" width="100%">
+					</div>
+					<div class="text-inner">
+						<h3>Xu hướng 2020</h3>
+						<hr/>
+						<h2>Đồng hồ nam</h2>
+					</div>
+				</div>
+			</div>
+			<div class="filler col-md-6 col-12 pt-3 pt-md-0" data-aos="fade-left"> 
+				<div class="con">
+					<div class="img-content">
+						<img src="../image/dong-ho-nu.jpg " height="250px" width="100%">
+					</div>
+					<div class="text-inner">
+						<h3>Xu hướng 2020</h3>
+						<hr/>
+						<h2>Đồng hồ nữ</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="products">
+			<div class="title clearfix">
+				<h4 class="float-left">Sản phẩm bán chạy<h4>
+				<div class="button-tran float-right">
+					<button id="pre" type="button">
+						<i class="fas fa-chevron-left p-2"></i>
+					</button>
+					<button id="next">
+						<i class="fas fa-chevron-right p-2"></i>
+					</button>
+				</div>
+			</div>
+			<div>
+			<div class="row items-container" data-aos="fade-up">
+				<div class="col-3 item">
+					<div class="item-image">
+						<img src="../image/product-01.png" width="100%" height="300px">
+					</div>
+					<div class="item-title">
+						<h5>Classio 1</h5>
+						<div class="cost">700,000 đ</div>
+						<button>Thêm vào giỏ</button>
+					</div>
+				</div>
+				<div class="col-3 item">
+					<div class="item-image">
+						<img src="../image/product-02.png" width="100%" height="300px">
+					</div>
+					<div class="item-title">
+						<h5>Classio 2</h5>
+						<div class="cost">700,000 đ</div>
+						<button>Thêm vào giỏ</button>
+					</div>
+				</div>
+				<div class="col-3 item">
+					<div class="item-image">
+						<img src="../image/product-03.png" width="100%" height="300px">
+					</div>
+					<div class="item-title">
+						<h5>Classio 3</h5>
+						<div class="cost">700,000 đ</div>
+						<button>Thêm vào giỏ</button>
+					</div>
+				</div>
+				<div class="col-3 item">
+					<div class="item-image">
+						<img src="../image/product-04.png" width="100%" height="300px">
+					</div>
+					<div class="item-title">
+						<h5>Classio 4</h5>
+						<div class="cost">700,000 đ</div>
+						<button>Thêm vào giỏ</button>
+					</div>
+				</div>
+				<div class="col-3 item">
+					<div class="item-image">
+						<img src="../image/product-05.png" width="100%" height="300px">
+					</div>
+					<div class="item-title">
+						<h5>Classio 5</h5>
+						<div class="cost">700,000 đ</div>
+						<button>Thêm vào giỏ</button>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="container desc">
+		<div class="row mt-5 d-flex justify-content-between">
+			<div class="filler col-md-4 col-12" data-aos="zoom-in-up">
+				<div class="con">
+					<div class="img-content mr-3">
+						<img src="../image/lich-lam.jpg" height="250px" width="100%">
+					</div>
+					<div class="text-inner">
+						<h2>Lịch Lãm</h2>
+						<hr/>
+					</div>
+				</div>
+			</div>
+			<div class="filler col-md-4 col-12 pt-3 pt-md-0" data-aos="zoom-in-up" > 
+				<div class="con">
+					<div class="img-content">
+						<img src="../image/thoi-thuong.png " height="250px" width="100%">
+					</div>
+					<div class="text-inner">
+						<h2>Trẻ trung</h2>
+						<hr/>
+					</div>
+				</div>
+			</div>
+			<div class="filler col-md-4 col-12 pt-3 pt-md-0" data-aos="zoom-in-up" > 
+				<div class="con">
+					<div class="img-content">
+						<img src="../image/quyen-ru.png" height="250px" width="100%">
+					</div>
+					<div class="text-inner">
+						<h2>Quyến rũ</h2>
+						<hr/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container menu-tab">
+		<ul class="nav nav-tabs">
+		  	<li class="nav-item">
+		    	<a class="nav-link active" data-toggle="tab" href="#home">Sản phẩm bán chạy</a>
+		  	</li>
+		  	<li class="nav-item">
+		    	<a class="nav-link" data-toggle="tab" href="#menu1">Sản phẩm khuyến mại</a>
+		  	</li>
+		  	<li class="nav-item">
+		    	<a class="nav-link" data-toggle="tab" href="#menu2">Sản phẩm mới</a>
+		  	</li>
+		</ul>
+	</div>
+
+	<div class="tab-content">
+	  <div class="tab-pane active container" id="home">
+	  		<div class="d-flex container-items"> 
+				<div class="item">
+						<div class="item-image">
+							<img src="../image/product-01.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 1</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-02.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 2</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-03.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 3</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-04.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 4</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-05.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 5</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-05.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 6</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-07.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 7</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-09.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 8</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-08.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 9</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-06.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 10</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+				</div>
+	  </div>
+	  <div class="tab-pane container" id="menu1">
+	  		<div class="d-flex container-items" id="item3"> 
+				<div class="item">
+						<div class="item-image">
+							<img src="../image/product-01.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 1</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-06.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 2</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-03.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 3</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-09.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 4</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-07.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 5</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-01.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 6</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-02.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 7</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-03.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 8</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-04.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 9</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-05.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 10</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+				</div>
+	  </div>
+	  <div class="tab-pane container" id="menu2">
+	  		<div class="d-flex container-items" > 
+				<div class="item">
+						<div class="item-image">
+							<img src="../image/product-01.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 1</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-02.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 2</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-03.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 3</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-04.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 4</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-05.png" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 5</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-10.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 6</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-09.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 7</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-08.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 8</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-09.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 9</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="../image/product-06.jpg" width="100%" height="300px">
+						</div>
+						<div class="item-title">
+							<h5>Classio 10</h5>
+							<div class="cost">700,000 đ</div>
+							<button>Thêm vào giỏ</button>
+						</div>
+					</div>
+				</div>
+	  </div>
+	</div>
+	<div class="container infor">
+		<div class="row mt-5 d-flex justify-content-between">
+			<div class="filler col-md-4 col-12" data-aos="fade-right">
+				<div class="con">
+					<div class="img-content mr-3">
+						<img src="../image/lich-lam.jpg" height="250px" width="100%">
+					</div>
+				</div>
+				<div class="text-outer">
+					<h5>Chiếc đồng hồ của những CEO quyền lực nhất thế giới</h5>
+					<p>Đối với một số doanh nhân, một chiếc đồng hồ đeo tay không chỉ là ...</p>
+				</div>
+			</div>
+			<div class="filler col-md-4 col-12 pt-3 pt-md-0" data-aos="fade-up" > 
+				<div class="con">
+					<div class="img-content">
+						<img src="../image/thoi-thuong.png " height="250px" width="100%">
+					</div>
+					
+				</div>
+				<div class="text-outer">
+					<h5>12 chiếc đồng hồ dành cho nữ giới đắt giá nhất mọi thời đại</h5>
+					<p>Công nghiệp sản xuất đồng hồ sang trọng có dấu hiệu chững lại trong hai ...</p>
+				</div>
+			</div>
+			<div class="filler col-md-4 col-12 pt-3 pt-md-0" data-aos="fade-left" > 
+				<div class="con">
+					<div class="img-content">
+						<img src="../image/quyen-ru.png" height="250px" width="100%">
+					</div>
+				</div>
+				<div class="text-outer">
+					<h5>10 thương hiệu đồng hồ cao cấp hàng đầu mọi quý ông đều quan tâm, Rolex xếp hạng số 3</h5>
+					<p>1. Audemars Piguet Được thành lập vào năm 1875 bởi Jules-Louis Audemars và Edward-Auguste Piguet, ...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="content-footer">
+			<div class="left float-left">
+				<h3>Đăng kí nhận thông tin</h3>
+			</div>
+			<div class="right float-right">
+				<div class="search d-flex">
+					<div>
+						<input type="text" placeholder="Email...">
+					</div>
+					<div>
+						<button>
+							ĐĂNG KÍ
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container-fluid bg-black">
+		<div class="container clearfix footer2">
+			<div class="infor">
+				<h3>Thông tin liên hệ</h3>
+				<ul>
+					<li><a href="#">
+						<i class="fas fa-map-marker-alt"></i>
+						28, Phố Nhổn, Bắc Từ Liêm, Hà Nội</a>
+					</li>
+					<li><a href="#">
+						<i class="fas fa-phone"></i>
+						0386950395</a>
+					</li>
+					<li><a href="#">
+						<i class="fas fa-envelope"></i>
+						tuananhvtatb@gmail.com</a>
+					</li>
+					<li><a href="#">
+						<i class="fab fa-facebook-square"></i>
+						Vũ Tuấn Anh</a>
+					</li>
+				</ul>
+			</div>
+			<div class="infor">
+				<h3>Liên kết</h3>
+				<ul>
+					<li class="active"><a href="trangchu.html">Trang Chủ</a></li>
+					<li><a href="gioithieu.html">Giới Thiệu</a></li>
+					<li><a href="#">Đồng hồ nam</a></li>
+					<li><a href="#">Đồng hồ nữ</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">Liên Hệ</a></li>		
+				</ul>
+			</div>
+			<div class="infor">
+				<h3>Hỗ trợ</h3>
+				<ul>
+					<li><a href="#">Hướng dẫn mua hàng</a></li>
+					<li><a href="#">Hướng dẫn thanh toán</a></li>
+					<li><a href="#">Chính sách bảo hành</a></li>
+					<li><a href="#">Chính sách đổi trả</a></li>
+					<li><a href="#">Tư vấn khách hàng</a></li>
+				</ul>
+			</div>
+			<div class="infor">
+				<h3>Tải ứng dụng trên</h3>
+				<p>Ứng dụng Mona Watch có sẵn trên Google Play & App Store. Tải nó ngay.</p>
+				<ul>
+					<li><a href="#">
+						<img src="../image/img-googleplay.jpg"></a>
+					</li>
+					<li><a href="#">
+						<img src="../image/img-appstore.jpg"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="coppyright">
+				<i class="far fa-copyright"></i>
+				Bản quyền thuộc về Vũ Tuấn Anh
+			</div>
+		</div>
+		</div>
+	</footer>
+	<div class="social d-none d-lg-block">
+	<a href="https://www.facebook.com/tuananhtb99/"><i class="fab fa-facebook-f"></i></a>
+	<a href="https://www.facebook.com/tuananhtb99/"><i class="fab fa-twitter"></i></a>
+	<a href="https://www.instagram.com/tuan_oliver/?hl=vi"><i class="fab fa-instagram"></i></a>
+	<a href="https://www.facebook.com/tuananhtb99/"><i class="fab fa-youtube"></i></a>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript" src="../js/javascript.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
